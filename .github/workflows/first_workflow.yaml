@@ -1,14 +1,14 @@
 name: First Workflow
 on: [push]
 
-jobs: 
-    run-shell-commands:
+jobs:
+  run-shell-commands:
     runs-on: ubuntu-latest
     steps:
-        -name: echo a string
+      - name: Echo a string
         run: echo "Hello World!"
         
-        -name: Multiline Command
+      - name: Multiline Command
         run: |
-            pandas -v
-            python -V
+          pandas -v
+          python -V
