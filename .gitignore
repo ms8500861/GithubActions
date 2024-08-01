@@ -131,6 +131,8 @@ env.bak/
 venv.bak/
 ./genv
 .genv
+genv
+genv/
 
 
 # Spyder project settings
