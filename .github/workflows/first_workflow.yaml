@@ -2,7 +2,7 @@ name: First Workflow
 on: [push]
 
 jobs: 
-    run-shell-commands
+    run-shell-commands:
     runs-on: ubuntu-latest
     steps: 
         -name: echo a string
@@ -10,4 +10,4 @@ jobs:
         -name: Multiline Command
          run: 
             pandas -v
-            python -v
+            python -V
