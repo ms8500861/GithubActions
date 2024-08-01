@@ -4,10 +4,11 @@ on: [push]
 jobs: 
     run-shell-commands:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
         -name: echo a string
-         run: echo "Hello World!"
+        run: echo "Hello World!"
+        
         -name: Multiline Command
-         run: 
+        run: |
             pandas -v
             python -V
